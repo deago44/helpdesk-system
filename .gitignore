@@ -1,34 +1,81 @@
 # Helpdesk Application - Git Ignore File
 
-# Data directories
-data/
-logs/
-server/uploads/
-server/tickets.db
-server/tickets_*.db
+# ===========================================
+# SENSITIVE INFORMATION - NEVER COMMIT THESE
+# ===========================================
 
-# Environment files
+# Environment files (contain secrets)
 .env
 .env.*
 .env.local
+.env.development
 .env.production
+.env.staging
+.env.test
+.env.dev
+.env.prod
+.env.stage
 
-# Backup files
+# Configuration files with secrets
+config.json
+secrets.json
+credentials.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Database files (contain user data)
+server/tickets.db
+server/tickets_*.db
+server/*.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Upload directories (contain user files)
+server/uploads/
+uploads/
+files/
+attachments/
+
+# Backup files (may contain sensitive data)
 backups/
 *.backup
 *.sql
+*.dump
+backup_*
+restore_*
+
+# Log files (may contain sensitive information)
+logs/
+*.log
+*.log.*
+log_*
+error.log
+access.log
+debug.log
+
+# ===========================================
+# DEVELOPMENT FILES
+# ===========================================
 
 # Temporary files
 *.tmp
-*.log
+*.temp
 *.pid
+*.lock
+*.swp
+*.swo
+*~
 
 # IDE and editor files
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
+.cursor/
+*.sublime-*
+.atom/
+.brackets.json
 
 # OS generated files
 .DS_Store
@@ -38,12 +85,19 @@ backups/
 .Trashes
 ehthumbs.db
 Thumbs.db
+desktop.ini
+
+# ===========================================
+# DEPENDENCIES AND BUILD ARTIFACTS
+# ===========================================
 
 # Node.js
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.npm
+.yarn-integrity
 
 # Python
 __pycache__/
@@ -57,28 +111,26 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
 
 # Docker
 .dockerignore
+docker-compose.override.yml
+
+# ===========================================
+# PACKAGE AND DISTRIBUTION FILES
+# ===========================================
 
 # Package files
 *.zip
 *.tar.gz
 *.rar
-
-# Cursor IDE (remove this folder)
-.cursor/
-
-# Test files
-test_*.py
-*_test.py
-tests/
-
-# Coverage reports
-htmlcov/
-.coverage
-.coverage.*
-coverage.xml
+*.7z
+*.dmg
+*.pkg
+*.deb
+*.rpm
 
 # Distribution / packaging
 .Python
@@ -97,3 +149,53 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# ===========================================
+# TESTING AND COVERAGE
+# ===========================================
+
+# Test files
+test_*.py
+*_test.py
+tests/
+test/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+
+# ===========================================
+# DATA DIRECTORIES
+# ===========================================
+
+# Data persistence
+data/
+postgres/
+redis/
+mysql/
+mongodb/
+
+# ===========================================
+# SECURITY AND COMPLIANCE
+# ===========================================
+
+# Security scan results
+security-scan/
+vulnerability-report/
+*.security
+
+# Compliance reports
+compliance/
+audit-reports/
+
+# ===========================================
+# CLIENT DELIVERY PACKAGES
+# ===========================================
+
+# Client packages (these are generated, not source)
+helpdesk-client-package-*.zip
+helpdesk-standalone-*.zip
+client-package-*.zip
+delivery-*.zip
