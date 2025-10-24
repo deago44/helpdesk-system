@@ -102,8 +102,7 @@ See `DEPLOYMENT_GUIDE.md` for detailed production deployment instructions.
 ## Documentation
 
 - **[User Guide](CLIENT_GUIDE.md)** - End-user documentation
-- **[Deployment Guide](DEPLOYMENT_GUIDE.md)** - Technical deployment guide
-- **[Security Guidelines](SECURITY_GUIDELINES.md)** - Security best practices
+- **[Deployment Guide](DEPLOYMENT_GUIDE.md)** - Complete technical deployment guide
 - **[API Documentation](server/app.py)** - Backend API endpoints
 
 ## Security Features
