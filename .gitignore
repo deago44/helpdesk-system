@@ -60,6 +60,11 @@ debug.log
 # DEVELOPMENT FILES
 # ===========================================
 
+# Development guides (keep local)
+DEVELOPMENT_GUIDE.md
+DEV_SETUP.md
+LOCAL_SETUP.md
+
 # Temporary files
 *.tmp
 *.temp

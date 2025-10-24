@@ -81,28 +81,8 @@ helpdesk/
 │   └── public/            # Static assets
 ├── nginx/                 # Web server config
 ├── scripts/               # Deployment scripts
-├── docker-compose.yml     # Development setup
+├── docker-compose.yml     # Docker setup
 └── docker-compose.prod.yml # Production setup
-```
-
-## Development
-
-### Backend Development
-```bash
-cd server
-python -m venv .venv
-source .venv/bin/activate  # Linux/Mac
-# or
-.venv\Scripts\activate      # Windows
-pip install -r requirements.txt
-python app.py
-```
-
-### Frontend Development
-```bash
-cd web
-npm install
-npm run dev
 ```
 
 ## Production Deployment
