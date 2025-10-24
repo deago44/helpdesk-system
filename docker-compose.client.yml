@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  # Frontend React Application
+  web:
+    build: ./web
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_API_URL=http://localhost:5000
+    depends_on:
+      - api
+    volumes:
+      - ./web/src:/app/src
+    restart: unless-stopped
+
+  # Backend Flask API
+  api:
+    build: ./server
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_SECRET_KEY=dev-secret-key-change-in-production
+      - DATABASE_URL=sqlite:///tickets.db
+      - CORS_ALLOWED_ORIGINS=http://localhost:3000
+      - UPLOAD_FOLDER=./uploads
+      - MAX_CONTENT_LENGTH=10485760
+    volumes:
+      - ./server/uploads:/app/uploads
+      - ./server/tickets.db:/app/tickets.db
+    restart: unless-stopped
+
+  # Optional: PostgreSQL for production
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_DB=helpdesk
+      - POSTGRES_USER=helpdesk
+      - POSTGRES_PASSWORD=helpdesk123
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    profiles:
+      - production
+
+  # Optional: Redis for production
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    profiles:
+      - production
+
+volumes:
+  postgres_data:
+  redis_data:
