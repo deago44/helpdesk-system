@@ -123,17 +123,20 @@ See `DEPLOYMENT_GUIDE.md` for detailed production deployment instructions.
 
 - **[User Guide](CLIENT_GUIDE.md)** - End-user documentation
 - **[Deployment Guide](DEPLOYMENT_GUIDE.md)** - Technical deployment guide
+- **[Security Guidelines](SECURITY_GUIDELINES.md)** - Security best practices
 - **[API Documentation](server/app.py)** - Backend API endpoints
 
 ## 🔒 Security Features
 
-- Secure password hashing
-- Session management with timeout
-- CSRF protection
-- Rate limiting
-- File upload validation
-- CORS configuration
-- SQL injection protection
+- **Secure password hashing** - Passwords are properly hashed and salted
+- **Session management** - Secure sessions with timeout and proper cookies
+- **CSRF protection** - Cross-site request forgery protection
+- **Rate limiting** - Prevents abuse and brute force attacks
+- **File upload validation** - Secure file handling with type validation
+- **CORS configuration** - Proper cross-origin resource sharing setup
+- **SQL injection protection** - Parameterized queries prevent SQL injection
+- **Environment security** - Comprehensive `.gitignore` protects sensitive data
+- **Security guidelines** - Complete documentation for handling secrets
 
 ## 📊 Monitoring
 
