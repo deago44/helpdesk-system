@@ -4,7 +4,7 @@
 
 A modern, production-ready helpdesk system built with React and Flask, designed for easy deployment and client delivery.
 
-## 🚀 Features
+## Features
 
 - **Complete Ticket Management** - Create, assign, and track support tickets
 - **User Role System** - Admin, Tech, and User roles with appropriate permissions
@@ -14,7 +14,7 @@ A modern, production-ready helpdesk system built with React and Flask, designed 
 - **Ticket Status Sections** - Organized view with separate Open/Closed sections
 - **Production Ready** - Security features, Docker deployment, and monitoring
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: React.js with Vite
 - **Backend**: Flask (Python)
@@ -22,7 +22,7 @@ A modern, production-ready helpdesk system built with React and Flask, designed 
 - **Deployment**: Docker & Docker Compose
 - **Security**: CSRF protection, rate limiting, secure sessions
 
-## 📦 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Docker and Docker Compose
@@ -48,7 +48,7 @@ open http://localhost:3000
 3. Create your first account
 4. Start managing tickets!
 
-## 🎯 User Roles
+## User Roles
 
 ### **User** (Default)
 - Create and manage own tickets
@@ -67,7 +67,7 @@ open http://localhost:3000
 - System administration
 - Access audit logs
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 helpdesk/
@@ -85,7 +85,7 @@ helpdesk/
 └── docker-compose.prod.yml # Production setup
 ```
 
-## 🔧 Development
+## Development
 
 ### Backend Development
 ```bash
@@ -105,7 +105,7 @@ npm install
 npm run dev
 ```
 
-## 🚀 Production Deployment
+## Production Deployment
 
 ### Docker Deployment
 ```bash
@@ -119,14 +119,14 @@ docker-compose -f docker-compose.prod.yml up -d
 ### Manual Deployment
 See `DEPLOYMENT_GUIDE.md` for detailed production deployment instructions.
 
-## 📚 Documentation
+## Documentation
 
 - **[User Guide](CLIENT_GUIDE.md)** - End-user documentation
 - **[Deployment Guide](DEPLOYMENT_GUIDE.md)** - Technical deployment guide
 - **[Security Guidelines](SECURITY_GUIDELINES.md)** - Security best practices
 - **[API Documentation](server/app.py)** - Backend API endpoints
 
-## 🔒 Security Features
+## Security Features
 
 - **Secure password hashing** - Passwords are properly hashed and salted
 - **Session management** - Secure sessions with timeout and proper cookies
@@ -138,7 +138,7 @@ See `DEPLOYMENT_GUIDE.md` for detailed production deployment instructions.
 - **Environment security** - Comprehensive `.gitignore` protects sensitive data
 - **Security guidelines** - Complete documentation for handling secrets
 
-## 📊 Monitoring
+## Monitoring
 
 - Health check endpoints
 - Structured logging
@@ -146,7 +146,7 @@ See `DEPLOYMENT_GUIDE.md` for detailed production deployment instructions.
 - Performance monitoring
 - Database backup/restore
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -154,17 +154,17 @@ See `DEPLOYMENT_GUIDE.md` for detailed production deployment instructions.
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Support
+## Support
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/helpdesk/issues)
 - **Documentation**: See the docs folder
 - **Contact**: [Your contact information]
 
-## 🎉 Acknowledgments
+## Acknowledgments
 
 - Built with modern web technologies
 - Designed for easy client delivery
@@ -172,4 +172,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Ready to deploy!** This helpdesk system is designed to be easily deployed and delivered to clients. 🚀
+**Ready to deploy!** This helpdesk system is designed to be easily deployed and delivered to clients.

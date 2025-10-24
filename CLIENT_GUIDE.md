@@ -2,11 +2,11 @@
 
 **Created by: Static Research Labs LLC**
 
-## 🎯 Welcome to Your Helpdesk System
+## Welcome to Your Helpdesk System
 
 This guide will help you get started with your new helpdesk application. The system is designed to streamline ticket management and improve support workflows.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### First Time Setup
 
@@ -25,30 +25,30 @@ This guide will help you get started with your new helpdesk application. The sys
    - Contact your system administrator to promote your account to admin/tech role
    - Admin users can close tickets and manage the system
 
-## 👥 User Roles
+## User Roles
 
 ### **User Role** (Default)
-- ✅ Create new tickets
-- ✅ View your own tickets
-- ✅ Update ticket details
-- ✅ Upload attachments
-- ❌ Cannot close tickets
-- ❌ Cannot assign tickets
+- Create new tickets
+- View your own tickets
+- Update ticket details
+- Upload attachments
+- Cannot close tickets
+- Cannot assign tickets
 
 ### **Tech Role**
-- ✅ All User permissions
-- ✅ Close tickets
-- ✅ Assign tickets to users
-- ✅ View all tickets
-- ✅ Manage ticket priorities
+- All User permissions
+- Close tickets
+- Assign tickets to users
+- View all tickets
+- Manage ticket priorities
 
 ### **Admin Role**
-- ✅ All Tech permissions
-- ✅ User management
-- ✅ System administration
-- ✅ Access to admin features
+- All Tech permissions
+- User management
+- System administration
+- Access to admin features
 
-## 🎫 Working with Tickets
+## Working with Tickets
 
 ### Creating a Ticket
 
@@ -68,8 +68,8 @@ This guide will help you get started with your new helpdesk application. The sys
 - **Closed Only**: Review completed tickets
 
 #### **Ticket Statuses**
-- **🟢 Open**: Active tickets needing attention
-- **🔴 Closed**: Resolved tickets (separated from active work)
+- **Open**: Active tickets needing attention
+- **Closed**: Resolved tickets (separated from active work)
 
 #### **Updating Tickets**
 1. Click on any ticket to open details
@@ -82,7 +82,7 @@ This guide will help you get started with your new helpdesk application. The sys
 3. Confirm the action
 4. Ticket moves to "Closed" section
 
-## 📎 File Attachments
+## File Attachments
 
 ### Uploading Files
 1. Open a ticket
@@ -97,7 +97,7 @@ This guide will help you get started with your new helpdesk application. The sys
 - Archives: ZIP, RAR
 - Other: Most common file types
 
-## 🔍 Search and Filter
+## Search and Filter
 
 ### Filtering Tickets
 - **Status Filter**: Show Open, Closed, or All tickets
@@ -109,7 +109,7 @@ This guide will help you get started with your new helpdesk application. The sys
 - Filter by status to focus on specific ticket types
 - Sort by priority to handle urgent issues first
 
-## 🎨 Interface Overview
+## Interface Overview
 
 ### Main Dashboard
 - **Ticket List**: All your tickets organized by status
@@ -123,7 +123,7 @@ This guide will help you get started with your new helpdesk application. The sys
 - **Actions**: Edit, close (if you have permission)
 - **Attachments**: Upload and view files
 
-## 📱 Mobile-Friendly
+## Mobile-Friendly
 
 The helpdesk system is fully responsive and works great on:
 - Desktop computers
@@ -131,7 +131,7 @@ The helpdesk system is fully responsive and works great on:
 - Mobile phones
 - Any device with a web browser
 
-## 🔒 Security Features
+## Security Features
 
 ### Account Security
 - Passwords are securely hashed
@@ -143,7 +143,7 @@ The helpdesk system is fully responsive and works great on:
 - File uploads are validated for security
 - User permissions are enforced
 
-## 🆘 Getting Help
+## Getting Help
 
 ### Common Tasks
 
@@ -183,13 +183,13 @@ The helpdesk system is fully responsive and works great on:
 - Try refreshing the page
 - Contact your system administrator
 
-## 📞 Support Contacts
+## Support Contacts
 
 - **Technical Support**: [Your support contact]
 - **System Administrator**: [Admin contact]
 - **Emergency Contact**: [Emergency contact]
 
-## 🔄 System Updates
+## System Updates
 
 The system will be updated periodically with:
 - New features
@@ -199,7 +199,7 @@ The system will be updated periodically with:
 
 Updates are typically applied automatically and won't affect your data.
 
-## 📊 Best Practices
+## Best Practices
 
 ### For Users
 - **Be descriptive** in ticket titles and descriptions
@@ -213,8 +213,8 @@ Updates are typically applied automatically and won't affect your data.
 - **Use priority levels** to manage workload
 - **Review closed tickets** periodically
 
-## 🎉 You're Ready!
+## You're Ready!
 
 You now have everything you need to use the helpdesk system effectively. Start by creating your first ticket and exploring the interface. The system is designed to be intuitive and user-friendly.
 
-**Happy ticket managing!** 🎫✨
+**Happy ticket managing!**

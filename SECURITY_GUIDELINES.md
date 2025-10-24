@@ -2,11 +2,11 @@
 
 **Created by: Static Research Labs LLC**
 
-## 🔒 Sensitive Information Protection
+## Sensitive Information Protection
 
 This document outlines how to properly handle sensitive information in the helpdesk application.
 
-### ⚠️ **NEVER COMMIT THESE FILES**
+### **NEVER COMMIT THESE FILES**
 
 The following files contain or may contain sensitive information and are automatically excluded from Git:
 
@@ -40,7 +40,7 @@ The following files contain or may contain sensitive information and are automat
 - `logs/` - May contain sensitive information
 - `*.log` - Log files
 
-### ✅ **SAFE TO COMMIT**
+### **SAFE TO COMMIT**
 
 These files are safe to commit as they contain only templates or examples:
 
@@ -50,7 +50,7 @@ These files are safe to commit as they contain only templates or examples:
 - `server/.env.production` - Production template (no real secrets)
 - `web/.env.example` - Frontend environment template
 
-### 🛡️ **Security Best Practices**
+### Security Best Practices
 
 #### **1. Environment Variables**
 ```bash
@@ -86,7 +86,7 @@ print(secrets.token_hex(32))
 - Regular security updates
 - Monitor for vulnerabilities
 
-### 🔍 **Security Checklist**
+### Security Checklist
 
 Before deploying to production:
 
@@ -99,7 +99,7 @@ Before deploying to production:
 - [ ] Test security features
 - [ ] Review access controls
 
-### 🚨 **If Secrets Are Accidentally Committed**
+### If Secrets Are Accidentally Committed
 
 If sensitive information is accidentally committed:
 
@@ -123,13 +123,13 @@ If sensitive information is accidentally committed:
    - Ensure sensitive files are excluded
    - Test with `git check-ignore <file>`
 
-### 📞 **Security Contact**
+### Security Contact
 
 For security issues or questions:
 - **Email**: [Your security email]
 - **Issues**: [GitHub Issues](https://github.com/yourusername/helpdesk/issues)
 
-### 🔄 **Regular Security Maintenance**
+### Regular Security Maintenance
 
 - **Monthly**: Review access logs
 - **Quarterly**: Update dependencies
